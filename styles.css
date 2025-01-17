@@ -41,7 +41,6 @@ body {
   overflow-x: hidden;
 
   min-height: 100vh;
-  /* min-width: 100vh; */
   font-size: var(--fs-body);
   background: var(--bg-gray-200);
 }
@@ -476,12 +475,12 @@ body {
     font-size: 45%;
   }
 }
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
   .projectcard-link {
     width: 45.5rem;
   }
-}
-@media (max-width: 364px) {
+} */
+@media (max-width: 390px) {
   .projectcard-link {
     display: flex;
     flex-direction: column;
