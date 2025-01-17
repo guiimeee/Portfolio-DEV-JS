@@ -197,9 +197,9 @@ body {
 }
 
 .projects header {
-  display: grid;
-  justify-content: center;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   gap: 0.8rem;
 
   max-width: 104.0rem; 
@@ -471,5 +471,10 @@ body {
 @media (max-width: 540px) {
   :root {
     font-size: 45%;
+  }
+}
+@media (max-width: 335px) {
+  .projectcard-link {
+    width: 45.5rem;
   }
 }
